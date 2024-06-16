@@ -1,1 +1,3 @@
 src/env
+src/BackEnd/db.sqlite3
+*__pycache__
