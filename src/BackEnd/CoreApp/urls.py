@@ -9,7 +9,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('api/create-admin/', create_admin_user, name='create-admin'),
+    path('api/create-admin/', create_admin_user, name='create-admin'),
     path('docs/', include_docs_urls(title="API")),
 
     #Auth
